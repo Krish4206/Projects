@@ -1,0 +1,99 @@
+/* center div */
+body {
+  display: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Font-family */
+
+.custom-font {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Font Size */
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 150%;
+}
+h3 {
+  font-size: large;
+}
+
+/* Font Weight   */
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* Font Style */
+
+p {
+  font-style: italic;
+}
+
+/* Font Variant */
+
+span {
+  font-variant: small-caps;
+}
+
+Common CSS Test Properties
+
+direction: sets the direction of text flow.
+letter-spacing: sets the amount of space between letters.
+line-height: sets the amount of space between the baseline of two lines.
+text-align: sets the justification properties of text.
+text-decoration: determines how to use a line to decorate the text.
+text-indent: sets the amount of space to indent before each line of text in a block.
+text-transform: sets whether upper-case letters or lower-case letters are used.
+word-spacing: sets the amount of space between two words. 
+
+/* <title>CSS Colours</title> */
+/* <style> */
+  .colored-box {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: 2px solid #e74c3c;
+  text-align: center;
+  line-height: 200px;
+}
+h1 {
+  background-color: #123456;
+}
+h2 {
+  background-color: rgb(100, 2, 3);
+}
+h3 {
+  background-color: green;
+}
+h4 {
+  background-color: hsl(300, 30%, 30%);
+}
+/* </style> */
+
+ /* Properties that define a box model (Margin, Padding, Content, Border). */
+
+ .box-model-demo {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #0074d9;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 100px;
+  }
